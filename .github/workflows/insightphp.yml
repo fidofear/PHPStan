@@ -22,7 +22,7 @@ jobs:
       run: composer install
 
     - name: Run PHPInsight
-      run: vendor/bin/phpinsight analyse
+      run: vendor/bin/phpinsights analyse
 
     - name: Upload PHPInsight Report
       uses: actions/upload-artifact@v2
