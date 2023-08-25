@@ -3,7 +3,7 @@ name: SAST Workflow
 on:
   push:
     branches:
-      - none  # Adjust to your repository's default branch
+      - main  # Adjust to your repository's default branch
 
 jobs:
   sast:
