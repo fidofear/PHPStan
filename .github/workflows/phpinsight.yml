@@ -29,3 +29,4 @@ jobs:
       with:
         name: phpinsight-report
         path: phpinsight-report
+

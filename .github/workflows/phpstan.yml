@@ -1,4 +1,4 @@
-name: SAST Workflow
+name: PHPStan SAST Workflow
 
 on:
   push:
